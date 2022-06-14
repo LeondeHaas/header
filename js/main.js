@@ -16,5 +16,5 @@ function showSlides() {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
-    setTimeout(showSlides, 4250); // Change image every 2 seconds
+    setTimeout(showSlides, 6500); // elke 1000 = 1 seconde
 }
